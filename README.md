@@ -11,3 +11,7 @@ I wanted to try something different when spacing out the elements in the footer.
 ### `box-sizing`
 
 All this time I had been trying to do weird calculations to figure out the width I wanted for an element that included padding and a border.  This made for some weird numbers, especially if I was trying to make the design responsive.  With the `box-sizing` property, I can now control element sizing with much more accuracy and not have to worry about how the padding and border affects the sizing.  I wish the default value was `border-box` but I don't mind setting this for every element because it's such a relief to have that control.
+
+### Gradient Stops
+
+Leaving gradients alone lets the colors blend together automatically, but there were some solid colors in the navigation menu from the Apple homepage that I was struggling to recreate.  I tried to figure out how to work the stops, but the more I started fiddling with the numbers the more confusing it got.  I found this video on [CSS Gradients and repeating gradients](https://www.youtube.com/watch?v=4kWHW7da4U8) that gave a brief tutorial on how gradients worked and some of the more advanced ways of using gradients, which included a stop example.  I was able to figure out how to get colors to stop blending and how to get them started again.
